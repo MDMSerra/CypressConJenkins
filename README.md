@@ -24,7 +24,7 @@ Este documento detalla los pasos necesarios para integrar Jenkins con Cypress co
 
   ```bash
   npm install --save-dev cypress@9.7.0
-  
+
 ### 2. Configuración de las pruebas en Cypress
 
 - Crea archivos de prueba Cypress en el directorio `/cypress/integration` con nombres que terminen en `.spec.js` para realizar pruebas en la página estática de GitHub Pages.
@@ -45,7 +45,6 @@ context('Nombre del escenario de pruebas', () => {
     })
 })
 ```
-
 #### Configuración de Cypress en el archivo package.json:
 
 ```json
@@ -82,6 +81,16 @@ context('Nombre del escenario de pruebas', () => {
   - "cypress:edge": Ejecuta las pruebas Cypress específicamente en el navegador Edge.
   - Estos scripts pueden ser ejecutados desde la línea de comandos para realizar diferentes acciones, como correr pruebas en un navegador específico, ejecutar pruebas en modo headless, entre otros.
 - Asegúrate de que tu repositorio de GitHub tenga un archivo de configuración `cypress.json` con la configuración adecuada para las pruebas de Cypress.
+
+### 3. Configuración de repositorio local y repositorio remoto
+- Crea un archivo .gitignore para evitar que la carpeta node_modules se vincule al repositorio remoto. Puedes crear este archivo manualmente y en el agregar: node_modules/
+  
+- Realiza los pasos habituales para vincular tu repositorio local con un repositorio remoto en GitHub:
+  - Inicializa un repositorio local con > git init.
+  - Agrega los archivos al área de preparación con > git add .
+  - Realiza un commit inicial con > git commit -m "Primer commit".
+  - Conecta tu repositorio local a un repositorio remoto en GitHub con > git remote add origin URL_DEL_REPOSITORIO.
+  - Finalmente, haz el push de tus archivos al repositorio remoto en GitHub con > git push -u origin main (esto asume que estás trabajando en la rama 'main'). Asegúrate de reemplazar URL_DEL_REPOSITORIO con la URL de tu repositorio en GitHub.-
 
 ### 4. Configuración de Jenkins
 
