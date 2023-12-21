@@ -4,6 +4,8 @@
 
 Este documento detalla los pasos necesarios para integrar Jenkins con Cypress con el fin de realizar pruebas automatizadas en una página estática alojada en GitHub Pages utilizando el framework de pruebas end-to-end Cypress.
 
+[Ver video de demostración](https://youtu.be/VHCtJ9xah3s)
+
 ## Requisitos previos
 
 - Acceso a un servidor Jenkins
