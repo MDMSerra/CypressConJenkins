@@ -4,7 +4,10 @@
 
 Este documento detalla los pasos necesarios para integrar Jenkins con Cypress con el fin de realizar pruebas automatizadas en una página estática alojada en GitHub Pages utilizando el framework de pruebas end-to-end Cypress.
 
-[Ver video de demostración](https://youtu.be/VHCtJ9xah3s)
+- [Ver video con los pasos del proyecto](https://youtu.be/VHCtJ9xah3s)
+- [Repositorio donde encontraras mas información](https://github.com/JoanEsquivel/cypress-demo-framework)
+- [Pagina estática que se puede testear](https://mdmserra.github.io/challenge-oracle-decoder/)
+- [Documentacion y codigo de la Página estática](https://github.com/MDMSerra/challenge-oracle-decoder?tab=readme-ov-file)
 
 ## Requisitos previos
 
