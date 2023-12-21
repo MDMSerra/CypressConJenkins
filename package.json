@@ -1,0 +1,24 @@
+{
+  "name": "practicacorriendoenjenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run",
+    "cypress:chrome": "cypress run --browser chrome",
+    "cypress:edge": "cypress run --browser edge"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "Maria del Mar Serra",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
