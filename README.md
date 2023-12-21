@@ -86,11 +86,37 @@ context('Nombre del escenario de pruebas', () => {
 - Crea un archivo .gitignore para evitar que la carpeta node_modules se vincule al repositorio remoto. Puedes crear este archivo manualmente y en el agregar: node_modules/
   
 - Realiza los pasos habituales para vincular tu repositorio local con un repositorio remoto en GitHub:
-  - Inicializa un repositorio local con > git init.
-  - Agrega los archivos al área de preparación con > git add .
-  - Realiza un commit inicial con > git commit -m "Primer commit".
-  - Conecta tu repositorio local a un repositorio remoto en GitHub con > git remote add origin URL_DEL_REPOSITORIO.
-  - Finalmente, haz el push de tus archivos al repositorio remoto en GitHub con > git push -u origin main (esto asume que estás trabajando en la rama 'main'). Asegúrate de reemplazar URL_DEL_REPOSITORIO con la URL de tu repositorio en GitHub.-
+  - Inicializa un repositorio local con 
+  ```bash
+  git init
+  ```
+  
+  
+  - Agrega los archivos al área de preparación con 
+  ```bash
+  git add .
+  ```
+
+  
+  - Realiza un commit inicial con 
+  ```bash
+  git commit -m "Primer commit"
+  ```
+
+  
+  - Conecta tu repositorio local a un repositorio remoto en GitHub con 
+  ```bash
+  git remote add origin URL_DEL_REPOSITORIO
+  ```
+
+  
+  - Finalmente, haz el push de tus archivos al repositorio remoto en GitHub con 
+  ```bash
+  git push -u origin main
+  ```
+
+  
+  (esto asume que estás trabajando en la rama 'main'). Asegúrate de reemplazar URL_DEL_REPOSITORIO con la URL de tu repositorio en GitHub.-
 
 ### 4. Configuración de Jenkins
 
